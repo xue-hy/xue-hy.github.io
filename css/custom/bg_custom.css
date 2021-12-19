@@ -164,6 +164,12 @@ div#category {
 [data-theme="dark"] #aside-content #card-toc .toc-content .toc-link {
   color: #babdc1 !important;
 }
+
+[data-theme="dark"] #aside-content #card-toc .toc-content .toc-link.active {
+    border-left-color: rgb(255 255 255 / 70%);
+    background: #4c4948;
+}
+
 /*夜间模式顶部子链背景*/
 [data-theme="dark"] #nav .menus_items .menus_item .menus_item_child {
   background: rgba(0, 0, 0, 0.5) !important;
@@ -173,6 +179,7 @@ div#category {
 [data-theme="dark"] #sidebar #sidebar-menus {
   background: rgba(0, 0, 0, 0.5) !important;
 }
+
 /*手机夜间模式文章等数字颜色调整*/
 [data-theme="dark"] #sidebar #sidebar-menus .site-data .data-item .data-item-link .length-num {
   color: rgba(255, 255, 255, 0.7) !important;
