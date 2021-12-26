@@ -56,6 +56,9 @@ function dark() {
     }(),
     function t() {
       document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark' && u(), window.requestAnimationFrame(t)
+    }(),
+    function t() {
+      document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'light' && u(), window.requestAnimationFrame(t)
     }()
 };
 dark()
