@@ -184,3 +184,12 @@ div#category {
 [data-theme="dark"] #sidebar #sidebar-menus .site-data .data-item .data-item-link .length-num {
   color: rgba(255, 255, 255, 0.7) !important;
 }
+
+/*首页哔哔栏白天/夜间适配*/
+[data-theme="light"] #bbTimeList {
+  background: rgba(255, 255, 255, 0.8) !important;
+}
+
+[data-theme="dark"] #bbTimeList {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
