@@ -1,0 +1,5 @@
+/*tag_plugins 时间轴样式更改*/
+
+div.timenode .body {
+    display: block!important;
+}
