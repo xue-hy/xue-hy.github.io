@@ -4935,7 +4935,7 @@ mjx-container[display],
 #article-container .aplayer ul li:before {
   content: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
   body {
     background-image: url("http://upyun.hiyoung.fun/images/wallpaper/1016-5.jpg");
     background-repeat: no-repeat;
@@ -4948,7 +4948,7 @@ mjx-container[display],
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-position: center;
     -webkit-background-size: cover;
