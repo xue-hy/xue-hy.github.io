@@ -1361,7 +1361,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://img.hiyoung.fun/images/wallpaper/xk7ph8t6yza81.png);
+  background: url(https://img.hiyoung.fun/images/wallpaper/874701.jpg);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -4936,13 +4936,36 @@ mjx-container[display],
   content: none;
 }
 @media screen and (max-width: 480px) {
-  body {
+  [data-theme="dark"] body {
     background-image: url("https://img.hiyoung.fun/images/wallpaper/1016-5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
   }
-  body:before {
+  [data-theme="dark"] body:before {
+    content: "";
+    background-image: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  [data-theme="light"] body {
+    background-image: url("https://img.hiyoung.fun/images/wallpaper/p0002.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+  }
+  [data-theme="light"] body:before {
     content: "";
     background-image: inherit;
     position: fixed;

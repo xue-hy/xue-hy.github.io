@@ -261,3 +261,20 @@ h6 {
 [data-theme="dark"] #bbTimeList {
     background: rgba(0, 0, 0, 0.5) !important;
 }
+
+
+/*背景切换*/
+
+[data-theme="light"] #web_bg {
+    position: fixed;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    background: url(https://img.hiyoung.fun/images/wallpaper/v2-790b84eaf9679dff384fcf3fdedc78f8_r.jpg);
+    background-attachment: local;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
