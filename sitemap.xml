@@ -20,42 +20,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hiyoung.fun/about/index.html</loc>
-    
-    <lastmod>2022-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/bb/index.html</loc>
-    
-    <lastmod>2022-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/categories/index.html</loc>
-    
-    <lastmod>2022-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/comments/index.html</loc>
-    
-    <lastmod>2022-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hiyoung.fun/gallery/index.html</loc>
     
     <lastmod>2022-01-18</lastmod>
@@ -84,33 +48,6 @@
   
   <url>
     <loc>https://blog.hiyoung.fun/tags/index.html</loc>
-    
-    <lastmod>2022-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/categories/bookreviews/index.html</loc>
-    
-    <lastmod>2022-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/categories/butterfly/index.html</loc>
-    
-    <lastmod>2022-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/categories/daily/daily.html</loc>
     
     <lastmod>2022-01-18</lastmod>
     
@@ -156,6 +93,69 @@
   
   <url>
     <loc>https://blog.hiyoung.fun/gallery/game/arknights/index.html</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/about/index.html</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/bb/index.html</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/categories/index.html</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/comments/index.html</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/categories/bookreviews/index.html</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/categories/butterfly/index.html</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/categories/daily/daily.html</loc>
     
     <lastmod>2022-01-18</lastmod>
     
@@ -290,20 +290,6 @@
 
   
   <url>
-    <loc>https://blog.hiyoung.fun/tags/Git/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hiyoung.fun/tags/Remote-Control/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -353,6 +339,20 @@
   </url>
   
   <url>
+    <loc>https://blog.hiyoung.fun/tags/Git/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hiyoung.fun/tags/PicGO/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -368,13 +368,6 @@
   
   <url>
     <loc>https://blog.hiyoung.fun/tags/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/tags/HTML/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -402,6 +395,13 @@
   </url>
   
   <url>
+    <loc>https://blog.hiyoung.fun/tags/HTML/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hiyoung.fun/tags/Markdown/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -418,13 +418,6 @@
 
   
   <url>
-    <loc>https://blog.hiyoung.fun/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hiyoung.fun/categories/%E5%B7%A5%E5%85%B7%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -433,13 +426,6 @@
   
   <url>
     <loc>https://blog.hiyoung.fun/categories/%E5%BB%BA%E7%AB%99%E7%BE%8E%E5%8C%96/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Git/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -460,6 +446,13 @@
   </url>
   
   <url>
+    <loc>https://blog.hiyoung.fun/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hiyoung.fun/categories/%E4%B9%A6%E5%BD%B1%E9%9A%8F%E6%83%B3/%E8%AF%BB%E4%B9%A6%E9%9A%8F%E6%84%9F/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -467,7 +460,7 @@
   </url>
   
   <url>
-    <loc>https://blog.hiyoung.fun/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/HTML/</loc>
+    <loc>https://blog.hiyoung.fun/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/Git/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -475,6 +468,13 @@
   
   <url>
     <loc>https://blog.hiyoung.fun/categories/%E5%BB%BA%E7%AB%99%E7%BE%8E%E5%8C%96/%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/HTML/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
