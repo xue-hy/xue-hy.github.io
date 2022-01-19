@@ -329,11 +329,11 @@ h6 {
 
 /*首页哔哔栏白天/夜间适配*/
 
-[data-theme="light"] #bber-talk {
+[data-theme="light"] #bbTimeList {
     background: var(--light-color-define) !important;
 }
 
-[data-theme="dark"] #bber-talk {
+[data-theme="dark"] #bbTimeList {
     background: var(--dark-color-define) !important;
 }
 
@@ -360,6 +360,43 @@ h6 {
     color: var(--btn-color);
     text-align: center;
     font-size: 16px;
+}
+
+
+/*主页滚动置顶白天/夜间适配*/
+
+[data-theme="light"] .swiper {
+    background: var(--light-color-define);
+}
+
+[data-theme="light"] .blog-slider__code {
+    font-size: 18px;
+}
+
+[data-theme="light"] .blog-slider__title {
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+[data-theme="light"] .blog-slider__text {
+    font-size: 15px;
+}
+
+[data-theme="dark"] .swiper {
+    background: var(--dark-color-define);
+}
+
+[data-theme="dark"] .blog-slider__code {
+    font-size: 18px;
+}
+
+[data-theme="dark"] .blog-slider__title {
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+[data-theme="dark"] .blog-slider__text {
+    font-size: 15px;
 }
 
 @font-face {
