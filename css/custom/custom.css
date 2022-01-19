@@ -12,7 +12,7 @@ html {
     --light-color-define: rgba(255, 255, 255, 0.6);
     --light-bgcolor-define: rgba(255, 255, 255, 0.2);
     --dark-color-define: rgba(60, 60, 60, 0.6);
-    --dark-bgcolor-define: rgba(60, 60, 60, 0.2);
+    --dark-bgcolor-define: rgba(60, 60, 60, 0.3);
     /*透明色*/
     --light-bgcolor-trans: rgba(255, 255, 255, 0);
     --dark-bgcolor-trans: rgba(0, 0, 0, 0);
@@ -329,11 +329,11 @@ h6 {
 
 /*首页哔哔栏白天/夜间适配*/
 
-[data-theme="light"] #bbTimeList {
+[data-theme="light"] #bber-talk {
     background: var(--light-color-define) !important;
 }
 
-[data-theme="dark"] #bbTimeList {
+[data-theme="dark"] #bber-talk {
     background: var(--dark-color-define) !important;
 }
 
@@ -360,4 +360,12 @@ h6 {
     color: var(--btn-color);
     text-align: center;
     font-size: 16px;
+}
+
+@font-face {
+    /* 字体名自定义即可 */
+    font-family: 'MiSans';
+    /* 字体文件路径 */
+    src: url('/fonts/misans/MiSans-Regular.ttf');
+    font-display: swap;
 }
