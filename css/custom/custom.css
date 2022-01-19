@@ -9,10 +9,41 @@ svg.icon {
 }
 
 html {
-    --light-color-define: rgba(255, 255, 255, 0.55);
-    --light-bgcolor-define: rgba(255, 255, 255, 0.15);
-    --dark-color-define: rgba(60, 60, 60, 0.55);
-    --dark-bgcolor-define: rgba(0, 0, 0, 0.42);
+    --light-color-define: rgba(255, 255, 255, 0.6);
+    --light-bgcolor-define: rgba(255, 255, 255, 0.2);
+    --dark-color-define: rgba(60, 60, 60, 0.6);
+    --dark-bgcolor-define: rgba(60, 60, 60, 0.2);
+    /*透明色*/
+    --light-bgcolor-trans: rgba(255, 255, 255, 0);
+    --dark-bgcolor-trans: rgba(0, 0, 0, 0);
+}
+
+
+/* 滚动条样式设置 */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: rgba(73, 177, 245, 0.2);
+    border-radius: 2em;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #49b1f5;
+    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+}
+
+ ::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+ ::-moz-selection {
+    color: #fff;
+    background-color: #49b1f5;
 }
 
 
@@ -22,27 +53,24 @@ html {
 /* 页脚及头图透明，先将页头和页脚设置透明，再设置整个page夜色及透明度 */
 
 [data-theme="light"] #footer {
-    background: var(--light-bgcolor-define)!important;
+    background: var(--light-bgcolor-trans)!important;
 }
 
 [data-theme="light"] #page-header {
-    background: var(--light-bgcolor-define)!important;
+    background: var(--light-bgcolor-trans)!important;
 }
 
-[data-theme="light"] #page-header.post-bg {
-    background: var(--light-bgcolor-define)!important;
-}
-
-*/ [data-theme="light"] #article-container {
+[data-theme="light"] #article-container {
     background: var(--light-bgcolor-define) !important;
 }
 
-
-/*
-[data-theme="light"] .post-bg {
-    background-color: var(--light-bgcolor-define) !important;
+[data-theme="light"] #content-inner {
+    background: var(--light-bgcolor-define) !important;
 }
-*/
+
+[data-theme="light"] .post-bg:before {
+    background-color: var(--light-bgcolor-trans)!important;
+}
 
 
 /* 首页文章卡片 */
@@ -134,15 +162,23 @@ html {
 /*夜间模式伪类遮罩层透明*/
 
 [data-theme="dark"] #footer {
-    background: var(--dark-bgcolor-define) !important;
+    background: var(--dark-bgcolor-trans) !important;
 }
 
 [data-theme="dark"] #page-header {
+    background: var(--dark-bgcolor-trans) !important;
+}
+
+[data-theme="dark"] #content-inner {
     background: var(--dark-bgcolor-define) !important;
 }
 
 [data-theme="dark"] #page {
-    background: var(--dark-bgcolor-define) !important;
+    background-color: var(--dark-bgcolor-define) !important;
+}
+
+[data-theme="dark"] .post-bg:before {
+    background-color: var(--dark-bgcolor-trans)!important;
 }
 
 
@@ -299,4 +335,29 @@ h6 {
 
 [data-theme="dark"] #bbTimeList {
     background: var(--dark-color-define) !important;
+}
+
+
+/*右侧选项栏白天/夜间适配*/
+
+[data-theme="dark"] #rightside>div>button {
+    display: block;
+    margin-bottom: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    color: var(--btn-color);
+    text-align: center;
+    font-size: 16px;
+}
+
+[data-theme="dark"] #rightside>div>a {
+    display: block;
+    margin-bottom: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    color: var(--btn-color);
+    text-align: center;
+    font-size: 16px;
 }
