@@ -8,165 +8,89 @@ svg.icon {
     overflow: hidden;
 }
 
-
-/* 首页文章卡片 */
-
-#recent-posts>.recent-post-item {
-    background: rgba(255, 255, 255, 0.8);
+html {
+    --light-color-define: rgba(255, 255, 255, 0.55);
+    --light-bgcolor-define: rgba(255, 255, 255, 0.15);
+    --dark-color-define: rgba(60, 60, 60, 0.55);
+    --dark-bgcolor-define: rgba(0, 0, 0, 0.42);
 }
 
 
-/* 首页侧栏卡片 */
+/*白天模式背景颜色及透明度调整*/
 
-.card-widget {
-    background: rgba(255, 255, 255, 0.8) !important;
+
+/* 页脚及头图透明，先将页头和页脚设置透明，再设置整个page夜色及透明度 */
+
+[data-theme="light"] #footer {
+    background: var(--light-bgcolor-define)!important;
+}
+
+[data-theme="light"] #page-header {
+    background: var(--light-bgcolor-define)!important;
+}
+
+[data-theme="light"] #page-header.post-bg {
+    background: var(--light-bgcolor-define)!important;
+}
+
+*/ [data-theme="light"] #article-container {
+    background: var(--light-bgcolor-define) !important;
+}
+
+
+/*
+[data-theme="light"] .post-bg {
+    background-color: var(--light-bgcolor-define) !important;
+}
+*/
+
+
+/* 首页文章卡片 */
+
+[data-theme="light"] #recent-posts>.recent-post-item {
+    background: var(--light-color-define) !important;
 }
 
 
 /* 文章页面正文背景 */
 
-div#post {
-    background: rgba(255, 255, 255, 0.8);
+[data-theme="light"] div#post {
+    background: var(--light-color-define) !important;
 }
 
 
 /* 分页页面 */
 
-div#page {
-    background: rgba(255, 255, 255, 0.8);
+[data-theme="light"] div#page {
+    background: var(--light-color-define) !important;
 }
 
 
 /* 归档页面 */
 
-div#archive {
-    background: rgba(255, 255, 255, 0.8);
+[data-theme="light"] div#archive {
+    background: var(--light-color-define) !important;
 }
 
 
 /* 标签页面 */
 
-div#tag {
-    background: rgba(255, 255, 255, 0.8);
+[data-theme="light"] div#tag {
+    background: var(--light-color-define) !important;
 }
 
 
 /* 分类页面 */
 
-div#category {
-    background: rgba(255, 255, 255, 0.8);
+[data-theme="light"] div#category {
+    background: var(--light-color-define) !important;
 }
 
 
-/* 页脚透明 */
+/* 首页侧栏卡片 */
 
-#footer {
-    background: transparent !important;
-}
-
-
-/* 头图透明 */
-
-#page-header {
-    background: transparent !important;
-}
-
-
-/*白天模式伪类遮罩层透明*/
-
-[data-theme="light"] #footer::before {
-    background: transparent !important;
-}
-
-[data-theme="light"] #page-header::before {
-    background: transparent !important;
-}
-
-
-/*夜间模式伪类遮罩层透明*/
-
-[data-theme="dark"] #footer::before {
-    background: transparent !important;
-}
-
-[data-theme="dark"] #page-header::before {
-    background: transparent !important;
-}
-
-
-/*夜间模式页面背景设置为半透明*/
-
-[data-theme="dark"] div.recent-post-item {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] #aside-content .card-widget {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] div#post {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] div#page {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] div#archive {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] div#tag {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] div#category {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-
-/*夜间模式顶部标题栏*/
-
-[data-theme="dark"] .nav-fixed #nav {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-
-/*阅读模式*/
-
-.read-mode #aside-content .card-widget {
-    background: rgba(158, 204, 171, 0.5) !important;
-}
-
-.read-mode div#post {
-    background: rgba(158, 204, 171, 0.5) !important;
-}
-
-
-/*夜间阅读模式*/
-
-[data-theme="dark"] .read-mode #aside-content .card-widget {
-    background: rgba(0, 0, 0, 0.5) !important;
-    color: #eeeeee;
-}
-
-[data-theme="dark"] .read-mode div#post {
-    background: rgba(0, 0, 0, 0.5) !important;
-    color: #eeeeee;
-}
-
-
-/*主页文章标题颜色*/
-
-[data-theme="dark"] div#recent-posts>.recent-post-item>.recent-post-info>.article-title {
-    color: rgba(255, 255, 255, 0.7) !important;
-}
-
-
-/*主页文章标签等数目颜色*/
-
-[data-theme="dark"] div#aside-content .card-info .card-info-data>.card-info-data-item a .length-num {
-    color: rgba(255, 255, 255, 0.7) !important;
+[data-theme="light"] .card-widget {
+    background: var(--light-color-define) !important;
 }
 
 
@@ -204,6 +128,94 @@ div#category {
 }
 
 
+/*夜间模式背景颜色及透明度调整*/
+
+
+/*夜间模式伪类遮罩层透明*/
+
+[data-theme="dark"] #footer {
+    background: var(--dark-bgcolor-define) !important;
+}
+
+[data-theme="dark"] #page-header {
+    background: var(--dark-bgcolor-define) !important;
+}
+
+[data-theme="dark"] #page {
+    background: var(--dark-bgcolor-define) !important;
+}
+
+
+/* 首页文章卡片 */
+
+[data-theme="dark"] div.recent-post-item {
+    background: var(--dark-color-define) !important;
+}
+
+
+/* 首页侧边最新文章 */
+
+[data-theme="dark"] #aside-content .card-widget {
+    background: var(--dark-color-define) !important;
+}
+
+
+/* 文章页面正文背景 */
+
+[data-theme="dark"] div#post {
+    background: var(--dark-color-define) !important;
+}
+
+
+/* 分页页面 */
+
+[data-theme="dark"] div#page {
+    background: var(--dark-color-define) !important;
+}
+
+
+/* 归档页面 */
+
+[data-theme="dark"] div#archive {
+    background: var(--dark-color-define) !important;
+}
+
+
+/* 标签页面 */
+
+[data-theme="dark"] div#tag {
+    background: var(--dark-color-define) !important;
+}
+
+
+/* 分类页面 */
+
+[data-theme="dark"] div#category {
+    background: var(--dark-color-define) !important;
+}
+
+
+/*夜间模式顶部标题栏*/
+
+[data-theme="dark"] .nav-fixed #nav {
+    background: var(--dark-color-define) !important;
+}
+
+
+/*主页文章标题颜色*/
+
+[data-theme="dark"] div#recent-posts>.recent-post-item>.recent-post-info>.article-title {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+
+/*主页文章标签等数目颜色*/
+
+[data-theme="dark"] div#aside-content .card-info .card-info-data>.card-info-data-item a .length-num {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+
 /*夜间模式文章标题颜色*/
 
 [data-theme="dark"] h1,
@@ -234,14 +246,14 @@ h6 {
 /*夜间模式顶部子链背景*/
 
 [data-theme="dark"] #nav .menus_items .menus_item .menus_item_child {
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: var(--dark-color-define) !important;
 }
 
 
 /*手机夜间侧边栏适配*/
 
 [data-theme="dark"] #sidebar #sidebar-menus {
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: var(--dark-color-define) !important;
 }
 
 
@@ -252,29 +264,39 @@ h6 {
 }
 
 
+/*阅读模式颜色及透明度修改*/
+
+
+/*阅读模式*/
+
+.read-mode #aside-content .card-widget {
+    background: rgba(158, 204, 171, 0.5) !important;
+}
+
+.read-mode div#post {
+    background: rgba(158, 204, 171, 0.5) !important;
+}
+
+
+/*夜间阅读模式*/
+
+[data-theme="dark"] .read-mode #aside-content .card-widget {
+    background: var(--dark-color-define) !important;
+    color: #eeeeee;
+}
+
+[data-theme="dark"] .read-mode div#post {
+    background: var(--dark-color-define) !important;
+    color: #eeeeee;
+}
+
+
 /*首页哔哔栏白天/夜间适配*/
 
 [data-theme="light"] #bbTimeList {
-    background: rgba(255, 255, 255, 0.8) !important;
+    background: var(--light-color-define) !important;
 }
 
 [data-theme="dark"] #bbTimeList {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-
-/*背景切换*/
-
-[data-theme="light"] #web_bg {
-    position: fixed;
-    z-index: -999;
-    width: 100%;
-    height: 100%;
-    background: url(https://img.hiyoung.fun/images/wallpaper/v2-790b84eaf9679dff384fcf3fdedc78f8_r.jpg);
-    background-attachment: local;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: var(--dark-color-define) !important;
 }
