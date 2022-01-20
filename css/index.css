@@ -3294,26 +3294,46 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://unpkg.zhimg.com/akilar-candyassets/image/cover1.webp');
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -webkit-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-937825e534bcddb107e4a13ef098e165_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -moz-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-937825e534bcddb107e4a13ef098e165_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -o-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-937825e534bcddb107e4a13ef098e165_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -ms-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-937825e534bcddb107e4a13ef098e165_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(150deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-937825e534bcddb107e4a13ef098e165_r.jpg");;
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: #abcdef;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -webkit-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-a64410eaedc141a444926d27c910264a_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -moz-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-a64410eaedc141a444926d27c910264a_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -o-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-a64410eaedc141a444926d27c910264a_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -ms-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-a64410eaedc141a444926d27c910264a_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(150deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-a64410eaedc141a444926d27c910264a_r.jpg");;
 }
 li.categoryBar-list-item:nth-child(3) {
-  background: rgba(45,67,89,0.7);
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -webkit-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-9062d83088eb5f33ba1d2ee675d9b0e6_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -moz-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-9062d83088eb5f33ba1d2ee675d9b0e6_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -o-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-9062d83088eb5f33ba1d2ee675d9b0e6_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -ms-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-9062d83088eb5f33ba1d2ee675d9b0e6_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(150deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-9062d83088eb5f33ba1d2ee675d9b0e6_r.jpg");;
 }
 li.categoryBar-list-item:nth-child(4) {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-  background: -ms-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-  background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -webkit-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-95b6a6a6e163d50b92295b6e65e609f5_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -moz-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-95b6a6a6e163d50b92295b6e65e609f5_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -o-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-95b6a6a6e163d50b92295b6e65e609f5_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -ms-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-95b6a6a6e163d50b92295b6e65e609f5_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(150deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-95b6a6a6e163d50b92295b6e65e609f5_r.jpg");;
 }
 li.categoryBar-list-item:nth-child(5) {
-  background: url('https://unpkg.zhimg.com/akilar-candyassets/image/cover5.webp');
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -webkit-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-f39e6ff257a9490caa05f53868ee6495_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -moz-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-f39e6ff257a9490caa05f53868ee6495_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -o-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-f39e6ff257a9490caa05f53868ee6495_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -ms-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-f39e6ff257a9490caa05f53868ee6495_r.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(150deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/v2-f39e6ff257a9490caa05f53868ee6495_r.jpg");;
 }
 li.categoryBar-list-item:nth-child(6) {
-  background: url('https://unpkg.zhimg.com/akilar-candyassets/image/cover6.webp');
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -webkit-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/418722.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -moz-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/418722.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -o-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/418722.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), -ms-linear-gradient(300deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/418722.jpg");;
+  background: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(150deg, rgba(80, 80, 80, 0.5) 5%,rgba(160, 160, 160, 0.5)), url("https://img.hiyoung.fun/images/wallpaper/418722.jpg");;
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
   content: '看书和影视方面的一些随感' !important;
