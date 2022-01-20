@@ -403,6 +403,9 @@ h6 {
     background: var(--dark-bgcolor-trans)!important;
 }
 
+
+/*天气插件字体颜色适配*/
+
 @font-face {
     /* 字体名自定义即可 */
     font-family: 'MiSans';
