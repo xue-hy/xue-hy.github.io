@@ -2391,7 +2391,13 @@ blockquote footer cite:before {
   border-radius: 8px 0 0 8px;
 }
 #recent-posts > .recent-post-item .right_radius {
-  border-radius: 8px 0 0 8px;
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -o-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+  border-radius: 0 8px 8px 0;
 }
 #recent-posts > .recent-post-item.ads-wrap {
   display: block !important;
@@ -2711,6 +2717,7 @@ blockquote footer cite:before {
   overflow: hidden;
   width: 4.2em;
   height: 4.2em;
+  border-radius: 5px;
 }
 #aside-content .aside-list > .aside-list-item .thumbnail > img {
   width: 100%;
