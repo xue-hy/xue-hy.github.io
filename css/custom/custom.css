@@ -9,9 +9,9 @@ svg.icon {
 }
 
 html {
-    --light-color-define: rgba(255, 255, 255, 0.6);
+    --light-color-define: rgba(255, 255, 255, 0.5);
     --light-bgcolor-define: rgba(255, 255, 255, 0.2);
-    --dark-color-define: rgba(60, 60, 60, 0.6);
+    --dark-color-define: rgba(45, 45, 45, 0.6);
     --dark-bgcolor-define: rgba(60, 60, 60, 0.3);
     /*透明色*/
     --light-bgcolor-trans: rgba(255, 255, 255, 0);
@@ -58,6 +58,10 @@ html {
 
 [data-theme="light"] #page-header {
     background: var(--light-bgcolor-trans)!important;
+}
+
+[data-theme="light"] #web_bg {
+    filter: brightness(1.0)!important;
 }
 
 [data-theme="light"] #article-container {
@@ -167,6 +171,10 @@ html {
 
 [data-theme="dark"] #page-header {
     background: var(--dark-bgcolor-trans) !important;
+}
+
+[data-theme="dark"] #web_bg {
+    filter: brightness(0.55)!important;
 }
 
 [data-theme="dark"] #content-inner {

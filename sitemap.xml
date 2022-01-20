@@ -2,34 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.hiyoung.fun/posts/34e648f9/</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hiyoung.fun/googleb7c8f7655d315f82.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/about/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/bb/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -165,6 +138,33 @@
   
   <url>
     <loc>https://blog.hiyoung.fun/gallery/game/arknights/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/about/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/bb/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/posts/34e648f9/</loc>
     
     <lastmod>2022-01-20</lastmod>
     
