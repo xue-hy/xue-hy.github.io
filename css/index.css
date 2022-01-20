@@ -2412,6 +2412,7 @@ blockquote footer cite:before {
   -ms-transition: all 0.6s;
   transition: all 0.6s;
   object-fit: cover;
+  border-radius: 10px;
 }
 #recent-posts > .recent-post-item .post_cover img.post_bg:hover {
   -webkit-transform: scale(1.1);

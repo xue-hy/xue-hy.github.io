@@ -403,13 +403,25 @@ h6 {
     background: var(--dark-bgcolor-trans)!important;
 }
 
-
-/*天气插件字体颜色适配*/
-
 @font-face {
     /* 字体名自定义即可 */
     font-family: 'MiSans';
     /* 字体文件路径 */
     src: url('/fonts/misans/MiSans-Regular.ttf');
     font-display: swap;
+}
+
+
+/*天气插件位置适配*/
+
+#he-plugin-simple {
+    left: 170px !important;
+    top: 10px !important;
+}
+
+@media screen and (max-width:450px) {
+    #he-plugin-simple[data-v-41ba7e2c] {
+        left: 150px !important;
+        top: 10px !important;
+    }
 }

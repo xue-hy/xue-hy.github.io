@@ -11,33 +11,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hiyoung.fun/link/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/music/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hiyoung.fun/tags/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hiyoung.fun/googleb7c8f7655d315f82.html</loc>
     
     <lastmod>2022-01-20</lastmod>
@@ -84,6 +57,33 @@
   
   <url>
     <loc>https://blog.hiyoung.fun/gallery/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/link/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/music/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hiyoung.fun/tags/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
